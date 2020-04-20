@@ -1,0 +1,10 @@
+<%-- Pie de página de las páginas --%>
+
+        <div class="text-center">
+            <hr />
+            <div class="well well-sm">
+                <i class="far fa-copyright"></i> Ejemplo desarrollado por: Ing. Jorge A. Arévalo A.
+            </div>
+        </div>
+    </body>
+</html>

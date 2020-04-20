@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee                               http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ControllerServlet</servlet-name>
+        <servlet-class>controller.ControllerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ControllerServlet</servlet-name>
+        <url-pattern>/agregarCurso</url-pattern>
+        <url-pattern>/agregarEstudiante</url-pattern>
+        <url-pattern>/editarEstudiante</url-pattern>
+        <url-pattern>/registrarEstudiante</url-pattern>
+        <url-pattern>/verCursos</url-pattern>
+        <url-pattern>/verEstudiante</url-pattern>
+        <url-pattern>/verEstudiantes</url-pattern>
+        <url-pattern>/reporteEstudiantes</url-pattern>
+        <url-pattern>/reporteEstudiante</url-pattern>
+        <url-pattern>/reporteCursos</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <jsp-config>
+        <jsp-property-group>
+            <description>Ajustes para header y footer</description>
+            <url-pattern>/index.jsp</url-pattern>
+            <url-pattern>/WEB-INF/vistas/*</url-pattern>
+            <include-prelude>/WEB-INF/jspf/header.jspf</include-prelude>
+            <include-coda>/WEB-INF/jspf/footer.jspf</include-coda>
+        </jsp-property-group>
+    </jsp-config>
+</web-app>
