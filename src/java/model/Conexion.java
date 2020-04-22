@@ -12,7 +12,7 @@ import java.sql.SQLException;
 /**
  * Clase para establecer la conexión con la bases de datos usando driver para
  * Microsoft SQLServer
- * @author Jorge A
+ * @author Ing. Jorge A. Arévalo A.
  */
 public class Conexion {
     /** Conexion */

@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * Representa un estudiante
- * @author Jorge A
+ * @author Ing. Jorge A. Arévalo A.
  */
 public class Estudiante {
     /** Identificador del estudiante */

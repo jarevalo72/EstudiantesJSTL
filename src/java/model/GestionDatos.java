@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * Permite gestionar las transacciones con la base de datos.
- * @author Jorge A
+ * @author Ing. Jorge A. Arévalo A.
  */
 public class GestionDatos {
     /** Conexión lógica con la base de datos */
@@ -30,7 +30,7 @@ public class GestionDatos {
 
     /**
      * Permite obtener una instancia de la conexión a la base de datos.
-     * @return 
+     * @return con Conexión actual
      */
     public Conexion getCon() {
         return con;

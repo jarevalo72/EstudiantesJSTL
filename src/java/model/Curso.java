@@ -7,7 +7,7 @@ package model;
 
 /**
  * Represnta un curso inscrito por el estudiante
- * @author Jorge A
+ * @author Ing. Jorge A. Arévalo A.
  */
 public class Curso {
     /** Identificador del curso */
